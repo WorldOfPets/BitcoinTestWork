@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BitcoinMinerTestWork</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bottom_menu_main_txt">Главная</string>
+    <string name="bottom_ment_tasks_txt">Задачи</string>
+    <string name="bottom_menu_referrals_txt">Рефералы</string>
+    <string name="bottom_menu_withdrawals_txt">Выводы</string>
+</resources>

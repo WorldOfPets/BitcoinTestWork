@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="com.example.bitcoinminertestwork.ui.tasks.TasksFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_tasks" />
+
+    <fragment
+        android:id="@+id/navigation_referrals"
+        android:name="com.example.bitcoinminertestwork.ui.referrals.ReferralsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_referrals" />
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.example.bitcoinminertestwork.ui.main.MainFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/navigation_withdrawals"
+        android:name="com.example.bitcoinminertestwork.ui.withdrawals.WithdrawlsFragment"
+        android:label="fragment_withdrawls"
+        tools:layout="@layout/fragment_withdrawls" />
+</navigation>

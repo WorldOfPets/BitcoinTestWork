@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/bottom_menu_main"
+        android:title="@string/bottom_menu_main_txt" />
+
+    <item
+        android:id="@+id/navigation_tasks"
+        android:icon="@drawable/bottom_menu_tasks"
+        android:title="@string/bottom_ment_tasks_txt" />
+
+    <item
+        android:id="@+id/navigation_referrals"
+        android:icon="@drawable/bottom_menu_referrals"
+        android:title="@string/bottom_menu_referrals_txt" />
+    <item
+        android:id="@+id/navigation_withdrawals"
+        android:icon="@drawable/bottom_menu_withdrawals"
+        android:title="@string/bottom_menu_withdrawals_txt" />
+
+</menu>
